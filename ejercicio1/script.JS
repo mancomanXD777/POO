@@ -7,6 +7,7 @@ let local = "Local";
 const constante = "Constante";
 let myDecimal= 10.45;
 let Cadenadetexto = "Hola, mundo!";
-
+let esVerdadero = true;
+let esFalso = false;
 
 console.log("variables: Global: " + global + "- Local: " + local + "- Constante:" + constante)
