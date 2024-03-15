@@ -5,9 +5,17 @@ var global = "Global";
 let local = "Local";
 //variable constante
 const constante = "Constante";
-let myDecimal= 10.45;
-let Cadenadetexto = "Hola, mundo!";
-let esVerdadero = true;
-let esFalso = false;
+let Num = 4;
+let Decimal= 10.45;
+let String = "texto";
+let Bool = true;
+let Array = ["Emil", "Elias", "Nicolas", "Esteban"];
+let Objeto = { edad:17, nombre: "Emil", curso: "4°"};
+let Indefinida; 
+let Nula = null;
+function sumar() {
+return 5 + 7;
+};
+console.log( sumar() );
 
 console.log("variables: Global: " + global + "- Local: " + local + "- Constante:" + constante)
