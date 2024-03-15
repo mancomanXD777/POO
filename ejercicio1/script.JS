@@ -9,4 +9,4 @@ let myDecimal= 10.45;
 let Cadenadetexto = "Hola, mundo!";
 
 
-console.log("variables: Global.. " + global + "_Local.. " + local + "_Constante.." + constante)
+console.log("variables: Global: " + global + "- Local: " + local + "- Constante:" + constante)
