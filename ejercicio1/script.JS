@@ -5,5 +5,8 @@ var global = "Global";
 let local = "Local";
 //variable constante
 const constante = "Constante";
+let myDecimal= 10.45;
+let Cadenadetexto = "Hola, mundo!";
+
 
 console.log("variables: Global.. " + global + "_Local.. " + local + "_Constante.." + constante)
