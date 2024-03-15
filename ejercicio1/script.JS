@@ -19,5 +19,5 @@ return 5 + 7;
 
 console.log( sumar() );
 
-console.log("variables:\nNum: " + Num + " \nDecimal: " + Decimal + "\nString: " + String + "\nBool: " + Bool + "\nArray: " + Array + "\nObjeto: " + Objeto + "\nIndefinida: " + Indefinida + "\nNula: " + Nula + "\nResultado de funcion: " + sumar());
+console.log("variables:\nNum: " + Num + " \nDecimal: " + Decimal + "\nString: " + String + "\nBool: " + Bool + "\nArray: " + Array + "\nObjeto: " + JSON.stringify(Objeto) + "\nIndefinida: " + Indefinida + "\nNula: " + Nula + "\nResultado de funcion: " + sumar());
 console.log("variables: Global: " + global + "- Local: " + local + "- Constante:" + constante)
