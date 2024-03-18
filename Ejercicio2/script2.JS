@@ -43,6 +43,6 @@ let Direccion = "Avenida Sangregorio, La Granja";
 let NumeroDeCasa = "0667";
 let Mensaje = "Yo vivo en: " + Direccion + " " + NumeroDeCasa;
 let Longitud = Mensaje.length;
-alert("Mensaje: " + Mensaje +"\nLongitud: " + Longitud +"\nPrimer Caracter: " + Mensaje[0 , 1]);
+alert("Mensaje: " + Mensaje +"\nLongitud: " + Longitud +"\nPrimer Caracter: " + Mensaje[0]);
 
 }
