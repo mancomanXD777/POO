@@ -1,12 +1,14 @@
 // Ejercicio 1: Declaración de variables
-// Instrucciones: Declara dos variables numéricas llamadas 'actual' y 'nac'.
+// Instrucciones: Declara dos variables numéricas llamadas 'Ahora' y 'FechaNac'.
 // Luego, calcula y muestra en un mensaje la edad actual basada en el año de nacimiento.
 
 function declararVariables() {
-let actual = 2023;
-let nac = 2004;
-let resultado = actual - nac;
-alert("Mi edad es: " + resultado);
+let Ahora = 2024;
+let FechaNac = 2005;
+let Resultado = Ahora - FechaNac;
+alert("Mi edad es: " + Resultado);
+
+alert("esto es una alerta")
 // Tu código aquí
 }
 
