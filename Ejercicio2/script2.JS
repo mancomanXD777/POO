@@ -5,7 +5,7 @@ function MiEdad() {
 let Ahora = 2024;
 let FechaNac = 2005;
 let Resultado = Ahora - FechaNac;
-alert("Mi edad es: " + Resultado);
+alert("Mi edad es de: " + Resultado);
 
 
 
@@ -41,7 +41,7 @@ alert("El valor de Suma es " + Suma + "\n El valor de la Resta es " + Resta + "\
 function MiDireccion() {
 let Direccion = "Avenida Sangregorio, La Granja";
 let NumeroDeCasa = "0667";
-let Mensaje = "El vive en: " + Direccion + " " + NumeroDeCasa;
+let Mensaje = "Yo vivo en: " + Direccion + " " + NumeroDeCasa;
 let Longitud = Mensaje.length;
 alert("Mensaje: " + Mensaje +"\nLongitud: " + Longitud +"\nPrimer Caracter: " + Mensaje[0]);
 
