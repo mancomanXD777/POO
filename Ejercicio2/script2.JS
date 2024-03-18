@@ -2,37 +2,38 @@
 // Instrucciones: Declara dos variables numéricas llamadas 'Ahora' y 'FechaNac'.
 // Luego, calcula y muestra en un mensaje la edad actual basada en el año de nacimiento.
 
-function declararVariables() {
+function MiEdad() {
 let Ahora = 2024;
 let FechaNac = 2005;
 let Resultado = Ahora - FechaNac;
 alert("Mi edad es: " + Resultado);
 
-alert("esto es una alerta")
+
 // Tu código aquí
 }
 
 // Ejercicio 2: Asignación de valores
-// Instrucciones: Completa la función para asignar el valor de 'x' a 'y' y luego muestra el valor de 'y'.
+// Instrucciones: Completa la función para asignar el valor de 'Var1' a 'Var2' y luego muestra el valor de 'Var2'.
 function asignarValores() {
-let x = 15;
-let y = x;
-alert("El valor de Y es: " + y);
+let Var1 = 37;
+let Var2 = Var1;
+alert("El valor de Var2 es: " + Var2);
 
 // Tu código aquí
 }
 
 // Ejercicio 3: Operaciones matemáticas
 // Instrucciones: Completa la función para realizar las siguientes operaciones:
-// Suma 'a' y 'b', resta 'b' de 'a', multiplica 'a' por 'b', y divide 'a' entre 'b'.
+// Suma 'Num1' y 'Num2', resta 'Num1' de 'Num3', multiplica 'Num2' por 'Num3', y divide 'Num1' entre '120'.
 // Muestra los resultados en un mensaje.
 function realizarOperaciones() {
-let b = 5;
-let a = 10;
-let suma = a + b;
-let resta = a - b;
-let multi = a * b;
-let divi = a / b;
+let Num2 = 745;
+let Num1 = 180;
+let Num3 = 45;
+let suma = Num1 + Num2;
+let resta = Num1 - Num3;
+let multi = Num2 * Num3;
+let divi = Num1 / 120;
 
 alert("la suma es " + suma + "\n la resta es " + resta + "\n la multi es " + multi + "\n la division es " + divi );
 
