@@ -27,13 +27,13 @@ function Operaciones() {
 let Num2 = 745;
 let Num1 = 180;
 let Num3 = 45;
-let Suma = Num1 + Num2;
+let Suma = Num1 + Num2 + Num3;
 let Resta = Num1 - Num3;
 let Multi = Num2 * Num3;
 let Divi = Num1 / 120;
 
-alert("El valor de Suma es " + Suma + "\n El valor de la Resta es " + Resta + "\n El valor de la Multi es " + Multi + "\nEl valor de la Division es " + Divi );
-}
+alert(El valor de Suma es  $(Suma)\nEl valor de la Resta es $(Resta)\n El valor de la Multi es  $(Multi)\nEl valor de la Division es $(Divi) );
+
 
 
 // Ejercicio 4: Manipulación de cadenas
