@@ -46,3 +46,13 @@ let Longitud = Mensaje.length;
 alert(`Mensaje: ${Mensaje} \nLongitud: ${Longitud} \nPrimer Caracter: ${$Mensaje[0]}`);
 
 }
+
+function Suma_indices() {
+    let Valor = [1,2,3,4,5,6,7];
+    let ultimoValor = Valor[Valor.length -1];
+    let penultimoValor = Valor[Valor.length -2];
+    let primerValor = Valor[0];
+    Suma = ultimoValor + penultimoValor + primerValor
+alert(`La suma de los valores es ${Suma}`);
+
+}
