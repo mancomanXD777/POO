@@ -5,7 +5,7 @@ function MiEdad() {
 let Ahora = 2024;
 let FechaNac = 2005;
 let Resultado = Ahora - FechaNac;
-alert("Mi edad es de: " + Resultado);
+alert(`Mi edad es de: ${Resultado}`);
 
 
 
@@ -16,7 +16,7 @@ alert("Mi edad es de: " + Resultado);
 function AsignarValores() {
 let Var1 = 37;
 let Var2 = Var1;
-alert("El valor de Var2 es: " + Var2);
+alert(`El valor de Var2 es: ${Var2}`);
 
 
 }
@@ -32,9 +32,9 @@ let Resta = Num1 - Num3;
 let Multi = Num2 * Num3;
 let Divi = Num1 / 120;
 
-alert(El valor de Suma es  $(Suma)\nEl valor de la Resta es $(Resta)\n El valor de la Multi es  $(Multi)\nEl valor de la Division es $(Divi) );
+alert(`El valor de Suma es ${Suma}\nEl valor de la Resta es ${Resta}\nEl valor de la Multi es  ${Multi}\nEl valor de la Division es ${Divi}`);
 
-
+}
 
 // Ejercicio 4: Manipulación de cadenas
 
@@ -43,6 +43,6 @@ let Direccion = "Avenida Sangregorio, La Granja";
 let NumeroDeCasa = "0667";
 let Mensaje = "Yo vivo en: " + Direccion + " " + NumeroDeCasa;
 let Longitud = Mensaje.length;
-alert("Mensaje: " + Mensaje +"\nLongitud: " + Longitud +"\nPrimer Caracter: " + Mensaje[0]);
+alert(`Mensaje: ${Mensaje} \nLongitud: ${Longitud} \nPrimer Caracter: ${$Mensaje[0]}`);
 
 }
