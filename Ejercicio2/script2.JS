@@ -64,7 +64,7 @@ const mensajeNuevo = ["Somos", "nosotros", "todos", "los", "estudiantes", "de", 
 const valoresEliminados = mensajeInicial.splice(0, mensajeInicial.length);
 const valoresAgregados = mensajeModificado.slice(0);
 
-alert(`Arreglo inicial: ${mensajeInicial} \nValores Eliminados: ${valoresEliminados} \nMenjase Nuevo: ${ultimoValor} \nValores agregados: ${valoresAgregados}`);
+alert(`Arreglo inicial: ${mensajeInicial} \nValores Eliminados: ${valoresEliminados} \nMenjase Nuevo: ${mensajeNuevo} \nValores agregados: ${valoresAgregados}`);
 }
 
 function operandoMetodos() {
