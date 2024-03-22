@@ -61,7 +61,7 @@ function modificarMensaje() {
 const mensajeInicial = ["Hola", "a", "todos", "los", "estudiantes", "de", "programación", "de", "4to", "C"];
 const mensajeNuevo = ["Somos", "nosotros", "todos", "los", "estudiantes", "de", "programación", "los", "mejores", "del mundo"];
 
-const valoresEliminados = mensajeInicial.splice(0, mensajeInicial.length);
+const valoresEliminados = mensajeInicial.splice(0, mensajeInicial2.length);
 const mensajeInicial2 = mensajeInicial.slice(0);
 const valoresAgregados = mensajeNuevo.slice(0);
 
