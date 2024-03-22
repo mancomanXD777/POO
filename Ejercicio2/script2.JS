@@ -61,11 +61,10 @@ function modificarMensaje() {
 const mensajeInicial = ["Hola", "a", "todos", "los", "estudiantes", "de", "programación", "de", "4to", "C"];
 const mensajeNuevo = ["Somos", "nosotros", "todos", "los", "estudiantes", "de", "programación", "los", "mejores", "del mundo"];
 
-const valoresEliminados = mensajeInicial.splice(0, mensajeInicial.length);
-const mensajeInicial2 = valoresEliminados.splice(0, valoresEliminados.length)
+const valoresEliminados = mensajeInicial.slice(0);
 const valoresAgregados = mensajeNuevo.slice(0);
 
-alert(`Valor inicial: ${mensajeInicial2} \nValores Eliminados: ${valoresEliminados} \nValor Nuevo: ${mensajeNuevo} \nValores agregados: ${valoresAgregados}`);
+alert(`Valor inicial: ${mensajeInicial} \nValores Eliminados: ${valoresEliminados} \nValor Nuevo: ${mensajeNuevo} \nValores agregados: ${valoresAgregados}`);
 }
 
 function operandoMetodos() {
