@@ -86,4 +86,6 @@ for (let i = 0; i < numerosModificados.length; i++) {
 sumaTotal += numerosModificados[i];
 }
 
-alert(`Arreglo inicial: ${numeros} \nArreglo final:  ${numerosModificados} \nValores eliminados: ${valoresEliminados} \nValores agregados: ${[0, 100]} \nSuma de todos los elementos: ${sumaTotal}`)}
+alert(`Arreglo inicial: ${numeros} \nArreglo final:  ${numerosModificados} \nValores eliminados: ${valoresEliminados} \nValores agregados: ${[0, 100]} \nSuma de todos los elementos: ${sumaTotal}`)
+
+}
