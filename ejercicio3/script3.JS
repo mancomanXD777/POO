@@ -37,7 +37,7 @@ alert("¡Hace mucho calor!");
 
 function usuario(){
 
-    // Definir el nombre de usuario y la contraseña
+// Definir el nombre de usuario y la contraseña
 var nombreUsuario = "usuario123";
 var contraseña = "secreto";
 
