@@ -49,6 +49,6 @@ var inputContraseña = prompt("Ingrese su contraseña:");
 if (inputNombreUsuario === nombreUsuario && inputContraseña === contraseña) {
 alert("Acceso concedido");
 } else {
-ale("Acceso denegado");
+alert("Acceso denegado");
 }
 }
