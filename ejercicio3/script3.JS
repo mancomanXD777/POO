@@ -34,3 +34,21 @@ alert("¡Hace mucho calor!");
 }
 
 }
+
+function usuario(){
+
+    // Definir el nombre de usuario y la contraseña
+var nombreUsuario = "usuario123";
+var contraseña = "secreto";
+
+// Simular la entrada del usuario (puedes omitir esta parte si quieres ingresar los valores manualmente)
+var inputNombreUsuario = prompt("Ingrese su nombre de usuario:");
+var inputContraseña = prompt("Ingrese su contraseña:");
+
+// Verificar el nombre de usuario y la contraseña
+if (inputNombreUsuario === nombreUsuario && inputContraseña === contraseña) {
+alert("Acceso concedido");
+} else {
+alert("Acceso denegado");
+}
+}
