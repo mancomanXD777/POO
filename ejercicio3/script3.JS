@@ -18,7 +18,7 @@ function compararNumeros() {
 function temperatura() {
 
 // Definir la temperatura actual en grados Celsius
-var temperatura = parseFloat(document.getElementById('celcius').value);
+var temperatura = parseFloat(document.getElementById('temperatura').value);
 
 // Mostrar un mensaje de acuerdo a la temperatura
 if (temperatura < 0) {
