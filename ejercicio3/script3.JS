@@ -22,15 +22,15 @@ var temperatura = parseFloat(document.getElementById('temperatura').value);
 
 // Mostrar un mensaje de acuerdo a la temperatura
 if (temperatura < 0) {
-console.log("¡Hace mucho frío!");
+alert("¡Hace mucho frío!");
 } else if (temperatura >= 0 && temperatura < 10) {
-console.log("Hace frío");
+alert("Hace frío");
 } else if (temperatura >= 10 && temperatura < 20) {
-console.log("La temperatura es agradable");
+alert("La temperatura es agradable");
 } else if (temperatura >= 20 && temperatura < 30) {
-console.log("Hace calor");
+alert("Hace calor");
 } else {
-console.log("¡Hace mucho calor!");
+alert("¡Hace mucho calor!");
 }
 
 }
