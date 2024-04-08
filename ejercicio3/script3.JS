@@ -75,11 +75,11 @@ function puntuacion(){
 var puntuacion = parseFloat(document.getElementById('puntuacion').value);
 
 // Mostrar un mensaje de acuerdo a la temperatura
-if (puntuacion < 90) {
+if (puntuacion >= 90) {
 alert("¡excelente!");
-} else if (puntuacion >= 70 && puntuacion < 89) {
+} else if (puntuacion > 70 && puntuacion < 89) {
 alert("buen trabajo");
-} else if  (puntuacion < 70) {
+} else if  (puntuacion <= 70) {
 alert("nesecitas mejorar");
 }
 
