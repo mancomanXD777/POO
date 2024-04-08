@@ -68,3 +68,19 @@ alert("El número es igual a cero");
 }
 
 }
+
+function puntuacion(){
+
+// Definir la temperatura actual en grados Celsius
+var puntuacion = parseFloat(document.getElementById('puntuacion').value);
+
+// Mostrar un mensaje de acuerdo a la temperatura
+if (puntuacion < 90) {
+alert("¡excelente!");
+} else if (puntuacion >= 70 && puntuacion < 89) {
+alert("buen trabajo");
+} else if  (puntuacion < 70) {
+alert("nesecitas mejorar");
+}
+
+}
