@@ -52,3 +52,19 @@ alert("Acceso concedido");
 alert("Acceso denegado");
 }
 }
+
+
+function numeros(){
+// Definir la variable numero
+var num3 = parseFloat(document.getElementById('numero3').value);
+
+// Determinar si el número es positivo, negativo o igual a cero
+if (numero > 0) {
+alert("El número es positivo");
+} else if (numero < 0) {
+alert("El número es negativo");
+} else {
+alert("El número es igual a cero");
+}
+
+}
