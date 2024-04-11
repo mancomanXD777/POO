@@ -4,10 +4,7 @@ function generarLista() {
 
     var i = 0;
     while (i <= 100) {
-    var listItem = document.createElement('li');
-    listItem.appendChild(document.createTextNode(i));
-    lista.appendChild(listItem);
+    lista.innerHTML += '<li>' + i + '</li>';
     i += 5;
     }
 }
-
