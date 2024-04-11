@@ -1,21 +1,23 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://www.herodevs.com/support/nes-bootstrap?utm_source=Bootstrap_site&utm_medium=Banner&utm_campaign=v3and4_eol">
+    <title>Números Crecientes de 5 en 5</title>
 </head>
 <body>
-<h1>numeros decrecientes del 20 al 10 </h1>
-<button onclick="contarCreciente()">Haz clic para contar</button>
+    <h1>Números Crecientes de 5 en 5</h1>
 
+    <ul id="lista"></ul>
 
-
-
-
-
-
-
+    <script>
+        let lista = document.getElementById("lista");
+        for (let i = 0; i <= 100; i += 5) {
+            let elementoLista = document.createElement("li");
+            elementoLista.appendChild(document.createTextNode(i));
+            lista.appendChild(elementoLista);
+        }
+    </script>
 
 <script src="script4.js"></script>
 </body>
