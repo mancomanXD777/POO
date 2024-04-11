@@ -6,5 +6,5 @@ function contar(){
             array.push(contador);
             contador--;
     }
-var lista = parseFloat(document.getElementById('lista').value);
+document.getElementById('lista').innerHTML = <p>numeros del 20 al 10</p>;
 }
