@@ -1,12 +1,11 @@
-function lista(){
-let lista = document.getElementById("lista ");
-let contador = 0;
+function generarLista() {
+var lista = document.getElementById('lista');
+  lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
 
-while ( contador <= 100) {
-    let elementoLista = document.createElement("lista ");
-    elementoLista.appendChild(document.createTextNode( contador ));
-    lista.appendChild(elementoLista);
-    contador  += 5;
+for (var i = 0; i <= 100; i += 5) {
+    var listItem = document.createElement('li');
+    listItem.appendChild(document.createTextNode(i));
+    lista.appendChild(listItem);
+}
 }
 
-}
