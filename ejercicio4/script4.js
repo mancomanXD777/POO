@@ -1,8 +1,8 @@
 function contarwhile(){
-    let contador = 20;
-    let array = [];
+    let contador = 0;
+    let array = [5];
 
-    while (contador >= 10){
+    while (contador >= 100){
             array.push(contador);
             contador--;
     }
