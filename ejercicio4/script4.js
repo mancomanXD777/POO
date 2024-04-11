@@ -1,11 +1,12 @@
-function contarwhile(){
-    let contador = 0;
-    let array = [5];
+function contarCreciente() {
+let contador = 0;
+let lista = document.getElementById("lista");
 
-    while (contador >= 100){
-            array.push(contador);
-            contador++;
-    }
-    document.getElementById("lista").innerHTML = `<p>contador del 0 al 100 de 5 en 5 con while</p> <br><h2 > ${Array} </h2></br>`;
-console.log( contador() );
+while (contador <= 100) {
+    let elementoLista = document.createElement("li");
+    elementoLista.appendChild(document.createTextNode(contador));
+    lista.appendChild(elementoLista);
+    contador += 5;
+}
+
 }
