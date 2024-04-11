@@ -1,10 +1,9 @@
-function contar(){
+function contarwhile(){
     let contador = 20;
-    let array = []
+    let array = [];
 
-    while (contador >= 10){
+    while (contador > 0){
             array.push(contador);
-            contador--;
+            contador--}
     }
-document.getElementById('lista').innerHTML = <p>numeros del 20 al 10</p>;
-}
+document.getElementById("lista").innerHTML = <p>contador del 20 al 10 con while</p>
