@@ -11,7 +11,7 @@ function generarLista() {
 
 
 function generarsegundaLista() {
-    var lista = document.getElementById('lista');
+    var lista = document.getElementById('lista2');
     lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
 
     var i = 0;
