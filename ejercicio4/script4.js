@@ -6,5 +6,6 @@ function contarwhile(){
             array.push(contador);
             contador++;
     }
-    document.getElementById("lista").innerHTML = `<p>contador del 20 al 10 con while</p> <br><h2 > ${Array} </h2></br>`;
+    document.getElementById("lista").innerHTML = `<p>contador del 0 al 100 de 5 en 5 con while</p> <br><h2 > ${Array} </h2></br>`;
+console.log( contador() );
 }
