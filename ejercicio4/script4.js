@@ -45,6 +45,6 @@ for (var i = 0; i < 5; i++) {
     }
 }
 
-document.write("El número mayor es: " + numeroMayor);
+alert("El número mayor es: " + numeroMayor);
 }
 
