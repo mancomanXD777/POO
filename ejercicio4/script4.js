@@ -49,14 +49,3 @@ alert("El número mayor es: " + numeroMayor);
 }
 
 
-
-function generarcuartaLista() {
-var numero = [];
-
-while (numero <= []) {
-lista.innerHTML += '<li>' + i + '</li>';
-i += 2;
-}
-
-alert("El número mayor es: " + numeroMayor);
-}
