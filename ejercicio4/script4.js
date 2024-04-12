@@ -33,17 +33,18 @@ function generarterceraLista() {
 }
 
 function compararNumeros() {
-// Obtener los valores ingresados por el usuario
-var num = [];
-var numeromayor
+var numeros = [];
+var numeroMayor;
 
 for (var i = 0; i < 5; i++) {
-    var num = prompt("ingresa el numero " + (i+1));
-    compararNumeros.push(number(numero));
+    var numero = prompt("Ingresa el número " + (i+1));
+    numeros.push(Number(numero));
 
-    if (i === 0 || num > numeromayor) {
-        numeromayor = num;
+    if (i === 0 || numero > numeroMayor) {
+        numeroMayor = numero;
     }
 }
+
+document.write("El número mayor es: " + numeroMayor);
 }
-document.write("el numero mayo es: " + numeromayor)
+
