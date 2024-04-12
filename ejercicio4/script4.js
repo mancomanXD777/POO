@@ -50,7 +50,7 @@ alert("El número mayor es: " + numeroMayor);
 
 
 
-function compararNumeros() {
+function generarcuartaLista() {
 var numero = [];
 
 while (numero <= []) {
