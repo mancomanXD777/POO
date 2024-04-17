@@ -11,10 +11,11 @@ function noNegative(arr){
     }
 
 
+
     
-    return arr;
     lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
     lista.innerHTML += '<li>' + arr + '</li>';
+    return arr;
 };
 
 
