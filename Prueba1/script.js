@@ -17,6 +17,6 @@ function noNegative(arr){
 let array = [-2,5,-6,10]
 var lista = document.getElementById('lista');
 lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
-lista.innerHTML += '<li>' + array(arr) + '</li>';
+lista.innerHTML += '<li>' + array[arr] + '</li>';
 noNegative(Array);
 
