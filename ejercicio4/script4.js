@@ -40,12 +40,21 @@ for (var i = 0; i < 5; i++) {
     var numero = prompt("Ingresa el número " + (i+1));
     numeros.push(Number(numero));
 
-    if (i === 0 || numero > numeroMayor) {
+    if (i === 0 || numero > numeroMayor) 
         numeroMayor = numero;
-    }
+    
 }
 
 alert("El número mayor es: " + numeroMayor);
 }
 
 
+function generarcuartaLista () {
+
+let = parseInt(prompt("ingrese la cantidad de numeros para la lista"));
+let arrayPares = [];
+
+for(let i = 1; 1 <= n; 1++){
+
+}
+}
