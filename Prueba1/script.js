@@ -12,4 +12,4 @@ function noNegative(arr){
 
 let array = [-2,5,-6,10]
 noNegative(Array);
-alert(arr);
+alert(noNegative(array));
