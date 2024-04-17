@@ -3,7 +3,7 @@
 function noNegative(arr){
     var lista = document.getElementById('lista');
     lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
-    lista.innerHTML += '<li>' + i + '</li>';
+    lista.innerHTML += '<li>' + array + '</li>';
     for(let i = 0; i < arr.length; i++){
         if(arr[i] < 0){
             arr[i] = 0;
@@ -15,4 +15,4 @@ function noNegative(arr){
 
 let array = [-2,5,-6,10]
 noNegative(Array);
-alert(noNegative(array));
+
