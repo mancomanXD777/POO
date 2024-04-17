@@ -6,8 +6,7 @@ function noNegative(arr){
     var lista = document.getElementById('lista');
         if(arr[i] < 0){
             arr[i] = 0;
-    lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
-    lista.innerHTML += '<li>' + array[arr] + '</li>';
+
         }
     }
 
@@ -17,7 +16,8 @@ function noNegative(arr){
 
     return arr;
 };
-
+lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
+lista.innerHTML += '<li>' + array[arr] + '</li>';
 
 
 var lista = document.getElementById('lista');
