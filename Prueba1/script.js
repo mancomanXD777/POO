@@ -3,16 +3,18 @@
 function noNegative(arr){
 
     for(let i = 0; i < arr.length; i++){
+    var lista = document.getElementById('lista');
         if(arr[i] < 0){
             arr[i] = 0;
-    lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
-    lista.innerHTML += '<li>' + array + '</li>';
+
         }
     }
 
 
     
     return arr;
+    lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
+    lista.innerHTML += '<li>' + arr + '</li>';
 };
 
 
