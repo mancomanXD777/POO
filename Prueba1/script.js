@@ -14,7 +14,7 @@ function noNegative(arr){
 
 
     lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
-    lista.innerHTML += '<li>' + array[arr] + '</li>';
+    lista.innerHTML += '<li>' + arr[array] + '</li>';
     return arr;
 };
 
