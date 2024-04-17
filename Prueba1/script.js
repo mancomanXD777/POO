@@ -5,6 +5,8 @@ function noNegative(arr){
     for(let i = 0; i < arr.length; i++){
         if(arr[i] < 0){
             arr[i] = 0;
+    lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
+    lista.innerHTML += '<li>' + arr + '</li>';
         }
     }
 
@@ -14,9 +16,8 @@ function noNegative(arr){
 };
 
 
-let array = [-2,5,-6,10]
+
 var lista = document.getElementById('lista');
-lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
-lista.innerHTML += '<li>' + array + '</li>';
+let array = [-2,5,-6,10]
 noNegative(Array);
 
