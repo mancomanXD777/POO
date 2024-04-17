@@ -3,7 +3,7 @@
 function noNegative(arr){
     var lista = document.getElementById('lista');
     lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
-    lista.innerHTML += '<li>' + arr(array) + '</li>';
+    lista.innerHTML += '<li>' + array(arr) + '</li>';
     for(let i = 0; i < arr.length; i++){
         if(arr[i] < 0){
             arr[i] = 0;
