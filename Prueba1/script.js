@@ -6,7 +6,7 @@ function noNegative(arr){
         if(arr[i] < 0){
             arr[i] = 0;
     lista.innerHTML = ''; // Limpiar la lista antes de generar una nueva
-    lista.innerHTML += '<li>' + arr + '</li>';
+    lista.innerHTML += '<li>' + array + '</li>';
         }
     }
 
