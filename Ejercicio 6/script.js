@@ -3,9 +3,11 @@
 function cambiarImagen1(elemento) {
 elemento.src = 'Chad.jpg';
 
+onclick=cambiarImagen1(elemento)
+elemento.src = 'tiste.jpg';
 
-}
 
-function cambiarImagen2(elemento) {
+
+onclick=cambiarImagen1(elemento)
 elemento.src = 'sorprendio.jpg';
 }
