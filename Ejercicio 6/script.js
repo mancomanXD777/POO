@@ -4,11 +4,11 @@ function cambiarImagen(elemento) {
 elemento.src = 'Chad.jpg';
 
 
-onclick=cambiarImagen(elemento)
-elemento.src = 'tiste.jpg';
+    onclick=elemento.src='chad.jpg'
+    elemento.src = 'tiste.jpg';
 
 
 
-onclick=cambiarImagen(elemento)
-elemento.src = 'sorprendio.jpg';
+    onclick=elemento.src
+    elemento.src = 'sorprendio.jpg';
 }
