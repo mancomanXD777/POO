@@ -1,4 +1,4 @@
-function Boton() {
+function Boton(this) {
 
 i = i+1
 
