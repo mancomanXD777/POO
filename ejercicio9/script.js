@@ -1,8 +1,6 @@
-function Boton(a) {
-    var button = document.getElementById('boton');
+function Boton() {
 
-var i = 0;
+i = i+1
 
-lista.innerHTML += '<button id= "boton" onclick="Boton(a)">' + i + '</button>';
-i += 1;
+button.innerHTML='i'
 }
