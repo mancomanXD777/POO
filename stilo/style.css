@@ -1,0 +1,29 @@
+body{
+    padding: 15px;
+    background-color: gray;
+}
+
+
+container{
+    height: 1000px;
+    width: 1000px;
+    background-color: grey;
+    padding: 20px;
+}
+.nav{
+    width: 1450px;
+    padding: 200px;
+    background-color: green;
+}
+
+h1{
+    height: 50px;
+}
+
+h2{
+
+}
+
+h3{
+
+}
