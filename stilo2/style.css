@@ -1,0 +1,18 @@
+body{background-color: darkorange;
+    width: 1000px;
+    height: 1000px;
+
+}
+nav{
+    height: 800px;
+    width: 800px;
+    color-scheme: salmon;
+    padding: 800;
+    
+}
+
+h1{
+    height: 800;
+    width: 800;
+    color: salmon;
+}
