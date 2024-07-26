@@ -1,18 +1,18 @@
-body{background-color: darkorange;
-    width: 1000px;
+body{
     height: 1000px;
-
+    width: 1000px;
+    align-items: center;
 }
-nav{
-    height: 800px;
-    width: 800px;
-    color-scheme: salmon;
-    padding: 800;
-    
+.container{
+    height: 700px;
+    width: 1000px;
+    background-color: orange;
+    display: block;
 }
 
-h1{
-    height: 800;
-    width: 800;
+.block{
+    height: 500px;
+    width: 700px;
+    float: grid;
     color: salmon;
 }
