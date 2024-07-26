@@ -1,12 +1,12 @@
 body{
     height: 1000px;
     width: 1000px;
-    align-items: center;
+    
 }
 .container{
     height: 700px;
     width: 1000px;
-    background-color: orange;
+    background-color: rgb(255, 102, 0);
     display: block;
 }
 
@@ -14,5 +14,18 @@ body{
     height: 500px;
     width: 700px;
     float: grid;
-    color: salmon;
+    color: rgb(255, 175, 128);
+}
+
+.block2{
+    height: 350px;
+    width: 500px;
+    color: rgb(100, 83, 250);
+}
+
+.block3{
+    height: 100px;
+    width: 300px;
+    color: rgb(88, 213, 255);
+
 }
