@@ -1,0 +1,19 @@
+*{
+    margin:0; /* Establece espacio externo */
+    padding: 0; /* Establece espacio interno */
+    outline: solid black 1px; /* Ancho de las lineas de las letras */
+}
+
+.container{
+    width: 1000px; /* Establece ancho de un elemento */
+    margin: 0 auto;
+}
+
+.top{
+    background-color: #ccc; /* Brinda color */
+    height: 60px; /* Modifica la altura de los elementos */
+    padding: 20px;
+    display: flex; /* Flexiona elementos activando flexbox */
+    justify-content: space-between; /* Distribuye de manera uniforme los elementos en la linea */
+    align-items: center; /* Ajusta verticalmente los elementos */
+}
