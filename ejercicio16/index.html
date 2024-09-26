@@ -6,75 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VideoLab</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- top navigation -->
-    <div class="top">
-        <div class="nav-container">
+    <header class="top">
+        <nav class="nav-container">
             <h1>VideoLab</h1>
-            <input type="text" placeholder="Search" name="query" class="search">
-            <button class="btn">Login</button>
-        </div>
-    </div>
+            <input type="text" placeholder="Search" name="query" class="search" aria-label="Search videos">
+            <button class="btn" aria-label="Login">Login</button>
+        </nav>
+    </header>
 
-    <!-- main content -->
-    <div class="flex-container">
-
-        <!-- left column -->
-        <div class="col-l">
-
-            <!-- this is a placeholder replace it with a real video -->
-            <!-- <figure class="placeholder">
-                <svg style="text-anchor:middle;" width="720" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 720x400" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" dy=".3em" fill="#dee2e6" >Replace Me!</text>
-                </svg>
-            </figure>
-                -->
-                <video src="assets/mictianos.mp4" height ="600" loop onmouseover="play(this)" onmouseout="stop(this)"></video>   <!--busca el video y cuando el mause este encima se reproduce y cuando se quita se detiene>
-            <!-- video info -->
+    <main class="flex-container">
+        <section class="col-l">
+            <video id="mainVideo" width="720" height="400" controls aria-label="Main video player">
+                <source src="assets/mictianos.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
             <div class="row">
                 <div class="start">
-                    <h1>Mictianos IRL</h1>
-                    <h3>90M Views | Septiembre, 25, 2024</h3>
+                    <h2 id="videoTitle">Example Video Title</h2>
+                    <p id="videoInfo">1.3K Views | June, 18, 2021</p>
                     <div class="user">
-                        <img src="assets/user.png" alt="user-circle" class="avatar-s">
-                        <span class="user-name">aliencat211</span>
+                        <img src="assets/user.png" alt="User avatar" class="avatar-s">
+                        <span class="user-name">Example User Name</span>
                     </div>
                 </div>
-                <button class="btn">Suscribete</button>
+                <button class="btn" aria-label="Subscribe to channel">Subscribe</button>
             </div>
+        </section>
 
-        </div>
-
-        <!-- right column -->
-        <div class="col-r">
-            <h3 class="sub-header">Sugeridos</h3>
-        
-            <div class="video-small1" onclick="cambiarVideo('assets/bombardear.mp4')">
-                <video src="assets/bombardear.mp4" class="vid-s" loop onmouseover="play(this)" onmouseout="stop(this)"></video>
-                <span class="video-title">Suplica de perro</span>
+        <aside class="col-r">
+            <h3 class="sub-header">Up Next</h3>
+            <div class="video-small" data-src="assets/bombardear.mp4" data-title="suplica de perro" data-info="10M Views | April 1, 2023">
+                <img src="assets/goku.png" alt="Thumbnail for Suplica de perro" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">Suplica de perro</span>
+                    <span class="video-views">10M Views | April 1, 2023</span>
+                </div>
             </div>
-        
-            <div class="video-small2" onclick="cambiarVideo('assets/negros.mp4')">
-                <video src="assets/negros.mp4" class="vid-s" loop onmouseover="play(this)" onmouseout="stop(this)"></video>
-                <span class="video-title">Hablando de personas</span>
+            <div class="video-small" data-src="assets/negros.mp4" data-title="hablando de" data-info="5M Views | May 15, 2023">
+                <img src="assets/combo.png" alt="Thumbnail for hablando de" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">hablando de</span>
+                    <span class="video-views">5M Views | May 15, 2023</span>
+                </div>
             </div>
-        
-            <div class="video-small3" onclick="cambiarVideo('assets/se_rebelo.mp4')">
-                <video src="assets/se_rebelo.mp4" class="vid-s" loop onmouseover="play(this)" onmouseout="stop(this)"></video>
-                <span class="video-title">Se rebelo</span>
+            <div class="video-small" data-src="assets/se_rebelo.mp4" data-title="Se rebelo" data-info="2M Views | June 1, 2023">
+                <img src="assets/xmen.png" alt="Thumbnail for Se rebelo" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">Se rebelo</span>
+                    <span class="video-views">2M Views | June 1, 2023</span>
+                </div>
             </div>
-        
-            <div class="video-small4" onclick="cambiarVideo('assets/tilin.mp4')">
-                <video src="assets/tilin.mp4" class="vid-s" loop onmouseover="play(this)" onmouseout="stop(this)"></video>
-                <span class="video-title">No llego tilin</span>
+            <div class="video-small" data-src="assets/tilin.mp4" data-title="No llego tilin" data-info="8M Views | June 10, 2023">
+                <img src="assets/mario.png" alt="Thumbnail for No llego tilin" class="vid-s">
+                <div class="video-info">
+                    <span class="video-title">No llego tilin</span>
+                    <span class="video-views">8M Views | June 10, 2023</span>
+                </div>
             </div>
-        </div>
+        </aside>
+    </main>
 
     <script src="script.js"></script>
 </body>
