@@ -8,7 +8,7 @@ const smallVideos = document.querySelectorAll('.video-small');
 function updateMainVideo(src, title, info) {
     mainVideo.src = src;
     mainVideo.load();
-    mainVideo.muted = true; // Silenciar el video para permitir la reproducción automática
+    mainVideo.muted = false; // Silenciar el video para permitir la reproducción automática
     mainVideo.play().then(() => {
         console.log("Video started playing automatically");
     }).catch(error => {
@@ -38,6 +38,15 @@ smallVideos.forEach(video => {
         const title = this.getAttribute('data-title');
         const info = this.getAttribute('data-info');
         updateMainVideo(src, title, info);
+        var tempTexto = textoSecundario.innerText;
+        textoSecundario.innerText = textoPrincipal.innerText;
+        textoPrincipal.innerText = tempTexto;
+
+        // Cambia el src del video principal al del video secundario
+        mainVideo.src = secondaryVideo.src;
+        mainVideo.play(); // Reproduce el nuevo video en el video principal
+        // Cambia el src del video secundario al que tenía el video principal
+        secondaryVideo.src = temp;
     });
 });
 
