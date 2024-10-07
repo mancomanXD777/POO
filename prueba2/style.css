@@ -1,0 +1,54 @@
+.numero {
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+    color: white;
+    font-size: 30px;
+    margin: 2px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.operador{
+    width: 80px;
+    height: 80px;
+    background-color: lawngreen;
+    color: black;
+    font-size: 30px;
+    margin: 2px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.igual{
+    width: 80px;
+    height: 80px;
+    background-color: lawngreen;
+    color: black;
+    font-size: 30px;
+    margin: 2px;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.numeros{
+    width: 20px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: text;
+}
+
+body{
+    display: flex;
+    background-color: darkgray;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
